@@ -14,8 +14,13 @@ router.get('/notes', (req, res) => {
 })
 
 // create a post request
-
+router.post('/notes', (req, res) => {
+    store
+    
+})
 // create a delete request
-
+router.delete('/notes', (req, res) => {
+    store
+})
 
 module.exports = router;
